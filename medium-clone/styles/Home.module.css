@@ -1,0 +1,29 @@
+/* Hero Section */
+.hero_container {
+  margin: 0rem 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 40px 0;
+  background-color: #facc15;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.hero_left {
+  padding: 0 40px;
+  margin-top: 1.25rem;
+}
+
+.hero_left h1 {
+  padding-bottom: 16px;
+  font-size: 3.75rem;
+  font-family: serif;
+}
+
+.hero_left > * {
+  font-weight: 500 !important;
+}
